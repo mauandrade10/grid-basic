@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.container div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3rem;
+}
+
+.container div span{
+    color: white;
+    font-weight: 600;
+}
+
+.container .item-1,.item-4{
+    background-color: #add901;
+}
+
+.container .item-2,.item-5{
+    background-color: #71bb05;
+}
+
+.container .item-3, .item-6{
+    background-color: #268201;
+}
+
+.container div span{
+    width: 50px;
+    text-align: center;
+}
+
+.item-1-number,.item-4-number{
+    background-color: #268301;
+}
+
+.item-2-number,.item-5-number{
+    background-color: #258200;
+}
+
+
+.item-3-number,.item-6-number{
+    background-color: #19370c;
+}
+
+

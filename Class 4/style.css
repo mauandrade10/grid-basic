@@ -1,0 +1,22 @@
+.main{
+    height: 1000px;
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+.container{
+    height: 450px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    background-color: #add901;
+    gap: 50px;
+    place-items: end;
+}
+
+.container div{
+    height: 100px;
+    width: 66px;
+    background-color: #62a81e;
+}

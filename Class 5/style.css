@@ -1,0 +1,47 @@
+.container{
+    border: 5px solid black;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas: 
+        "RowOne1 RowOne2 RowOne2"
+        "RowTwo1 RowTwo1 RowTwo2"
+        "RowThree1 RowThree2 RowThree3";
+    place-content: center;
+}
+
+
+.container .container-1-item{
+    background-color: #ccee3a;
+    grid-area: RowOne1;
+}
+
+.container .container-2-item{
+    background-color: #71bb05;
+    grid-area: RowOne2;
+}
+
+.container .container-3-item{
+    background-color: #268201;
+    grid-area: RowTwo1;
+}
+
+.container .container-4-item{
+    background-color: #ccee3a;
+    grid-area: RowTwo2;
+}
+
+.container .container-5-item{
+    background-color: #ccee3a;
+    grid-area: RowThree1;
+}
+
+.container .container-6-item{
+    background-color: #71bb05;
+    grid-area: RowThree2;
+}
+
+.container .container-7-item{
+    background-color: #268201;
+    grid-area: RowThree3;
+}
